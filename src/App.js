@@ -1,6 +1,12 @@
 import './css/app.css';
-import Login from './components/Login';
-import Register from './components/Register';
+// import Login from './components/Login';
+// import Register from './components/Register';
+import Hello from './components/Hello';
+import Message from './components/Message';
+import Patient from './components/Patient';
+import Department from './components/Department';
+import Medication from './components/Medication';
+import Counter from './components/counter';
 
 // const signupModal = document.querySelector(".signup-form-wrapper");
 // const loginModal = document.querySelector(".login-form-wrapper");
@@ -30,11 +36,19 @@ import Register from './components/Register';
 //   formContainer.classList.remove("disable");
 // });
 
+const App = () =>{
 
-function App() {
   return (
     <div className="App">
-      <div className="container">
+      <>
+   
+      <Counter></Counter>
+  
+     
+
+
+        </>
+      {/* <div className="container">
       <div className="banner-text">
         <h1>WELCOME TO CLYDE CHILDRENS HOSPITAL</h1>
         <p>LOGIN OR REGISTER TO ENTER THE HOSPITAL PORTAL</p>
@@ -43,14 +57,14 @@ function App() {
         <button className="btn login-btn">Login</button>
         <button className="btn signup-btn">Register</button>
       </div>
-      <div className="form-container">
+      <div className="form-container"> */}
         {/* signup container */}
-        <Login/>
+        {/* <Login/> */}
 
         {/* login container */}
-        <Register/>
-      </div>
-    </div>
+        {/* <Register/> */}
+      {/* </div>
+    </div> */}
 
     </div>
   );

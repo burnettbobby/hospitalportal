@@ -7,6 +7,9 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(255, 0, 200);
+  background-image: url(../images/ProCare-1.png);
+  color: rgb(2, 34, 7);
+  margin: 20px;
 }
 body img {
   width: 100%;

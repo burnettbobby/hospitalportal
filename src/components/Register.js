@@ -1,8 +1,10 @@
-const register =() => {
+import React from "react";
+
+const register =({closeModal}) => {
     return(
         <>
-        <div className="signup-form-wrapper modal">
-          <div className="x-btn signup-x">
+        <div className="modal">
+          <div className="x-btn signup-x" onClick={() => {closeModal(false)}}>
             &times;
           </div>
           <div className="form-header">

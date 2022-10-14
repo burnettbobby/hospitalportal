@@ -1,8 +1,11 @@
-const login = () =>{
+import React from "react";
+
+const login = ({closeModal}) =>{
+
     return(
         <>
-        <div className="login-form-wrapper modal">
-          <div className="x-btn login-x">
+        <div className="modal">
+          <div className="x-btn login-x" onClick={() => {closeModal(false)}}>
             &times;
           </div>
           <div className="form-header">

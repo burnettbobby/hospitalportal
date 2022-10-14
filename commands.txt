@@ -15,7 +15,6 @@ git config --global user.email "20298092@myclyde.ac.uk"
 **CREATE COMPONENT
 
 
-
 **REMOVE A FILE
 rm -rf node_modules  
 

@@ -7,6 +7,7 @@ import Patient from './components/Patient';
 import Department from './components/Department';
 import Medication from './components/Medication';
 import Counter from './components/counter';
+import Home from './components/Home';
 
 // const signupModal = document.querySelector(".signup-form-wrapper");
 // const loginModal = document.querySelector(".login-form-wrapper");
@@ -41,8 +42,7 @@ const App = () =>{
   return (
     <div className="App">
       <>
-   
-      <Counter></Counter>
+      <Home></Home>
   
      
 

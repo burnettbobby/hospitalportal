@@ -5,7 +5,6 @@ import React from 'react';
 import Login from '../components/Login';
 import Register from '../components/Register';
 
-
 const Home = () => {
     const [openLoginModal, setLoginModal] = useState(false);
     const [openRegisterModal, setRegisterModal] = useState(false);
@@ -14,7 +13,7 @@ const Home = () => {
         <>
         <div className="container">
             <div className="banner-text">
-                <h1>CLYDESIDE CHILDREN'S HOSPITAL</h1>
+                <h1>CLYDESIDE CHILDREN'S HOSPITAL PORTAL</h1>
         
             </div>
             <div className="btns">
